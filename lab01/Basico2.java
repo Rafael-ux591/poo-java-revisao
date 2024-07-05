@@ -10,9 +10,9 @@ public class Basico2 {
          * oito tipos primitivos em Java:
          */
 
-        byte numeroByte1 = -128;
+        byte numeroByte1 = -128; 
         byte numeroByte2 = 127;
-        // byte numeroByte3 = 128; //ERRO
+         // byte numeroByte3 = 128; //ERRO
         byte numeroByte4 = Byte.MIN_VALUE;
         byte numeroByte5 = Byte.MAX_VALUE;
 
@@ -22,24 +22,28 @@ public class Basico2 {
         short numeroShort4 = Short.MIN_VALUE;
         short numeroShort5 = Short.MAX_VALUE;
 
-        int numero1 = -2147483648;
+        int numero1 = -2147483648; //Sem casa decimal. 32 bits (muito espaço)
         int numero2 = 2147483647;
-        int numero3 = 2_147_483_647;
+        int numero3 = 2_147_483_647; //Separar as casas decimais
         int numero4 = Integer.MIN_VALUE;
         int numero5 = Integer.MAX_VALUE;
         var numero6 = 1;
 
-        float numeroFloat1 = 3.2f;
+        long numeroLong = 1; 
+        long numeroLong2 = Long.MAX_VALUE;
+        var numeroLong3 = 1L; // variável.
+
+        float numeroFloat1 = 3.2f; //32 bits com casas decimais
         float numeroFloat2 = Float.MIN_VALUE;
         float numeroFloat3 = Float.MAX_VALUE;
         var numeroFloat4 = 3.2f;
 
-        double numeroDouble1 = 3.2;
+        double numeroDouble1 = 3.2; //64 bits com casas decimais
         double numeroDouble2 = Double.MIN_VALUE;
         double numeroDouble3 = Double.MAX_VALUE;
         var numeroDouble4 = 3.2d;
 
-        char caractere1 = 'a';
+        char caractere1 = 'a'; //Armazena uma única letra
         char caractere2 = Character.MIN_VALUE;
         char caractere3 = Character.MAX_VALUE;
         var caractere4 = 'b';

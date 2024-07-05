@@ -21,7 +21,7 @@ public class Basico4 {
 
          //exp(double a): Retorna Euler elevado à potência de um valor.
          double resultado4 = Math.exp(1); // resultado4 é aproximadamente 2.71828
-         //log(double a): Retorna o logaritmo natural (base e) de um valor.
+         //log(double a): Retorna o logaritmo natural (base 2) de um valor.
          double resultado5 = Math.log(Math.E); // resultado5 é 1.0
          //log10(double a): Retorna o logaritmo de base 10 de um valor.
          double resultado6 = Math.log10(100); // resultado6 é 2.0

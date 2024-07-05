@@ -8,5 +8,9 @@ public class Entrada2 {
         var num2 = Integer.parseInt(args[1]);
         var soma = num1 + num2;
         System.out.println("A soma é " + soma );
+
+        var aresta = Double.parseDouble(args[0]); //Conversão de String para Double (unidade numérica)
+        var volume = Math.pow(aresta, 3); //Potenciação da String convertida em Double
+        System.out.println("O volume do cubo é " + volume);
     }
 }
