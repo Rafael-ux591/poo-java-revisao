@@ -1,4 +1,5 @@
 package lab04;
+import java.util.Scanner;
 
 public class Repeticoes1 {
     // java lab04/Repeticoes1.java
@@ -9,8 +10,8 @@ public class Repeticoes1 {
          */
         var numero = 0;
         while (numero < 10) {
-            System.out.println(numero);
             numero += 1;
+            System.out.println(numero);
         }
     }
 }
